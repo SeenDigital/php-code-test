@@ -13,7 +13,6 @@ set_include_path(
     '.' . PATH_SEPARATOR 
     . APPROOT . PATH_SEPARATOR
     . APPROOT . '/tests' . PATH_SEPARATOR
-    . APPROOT . '/phpunit'
-    . APPROOT . '/phpunit/PHPUnit'
+    . get_include_path()
 );
-require_once 'PHPUnit/AutoLoad.php';
+require_once 'PHPUnit/Autoload.php';

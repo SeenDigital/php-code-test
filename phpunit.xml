@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<phpunit backupGlobals="true"
+         backupStaticAttributes="false"
+         bootstrap="tests/bootstrap.php"
+         cacheTokens="true"
+         colors="true"
+         strict="false"
+         verbose="true">
+
+  <testsuites>
+    <testsuite name="Solutions">
+      <file phpVersion="5.3.0" phpVersionOperator=">=">tests/QuestionsTest.php</file>
+    </testsuite>
+  </testsuites>
+
+  
+</phpunit>
+

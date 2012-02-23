@@ -17,7 +17,7 @@ class Questions
      * For example, 
      *
      */
-    public function testReverseString( $string ) {
+    public function reverseString( $string ) {
 
     }
 
