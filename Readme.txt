@@ -5,11 +5,14 @@ description in the docblock of the method.  Fill each function with the code
 necessary to return the expected results from the problem description.
 
 
--- Optional:  Complete PHPUnit Setup --
+-- Optional:  Use PHPUnit to verify solutions --
 
 Each test problem is also coupled with a PHPUnit test which will verify the
 solution you've created.  These tests will be used against your submitted
-solutions to test them.  
+solutions to test them (with the exception of the bonus question).  
+
+The project has been setup so that the phpunit command can be run in the root,
+and correctly run all tests.
 
 These tests are located in tests/QuestionsTest.php. If your
 solution is correct, all tests should pass.  The tests themselves are complete

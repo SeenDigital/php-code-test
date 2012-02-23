@@ -54,6 +54,41 @@ class Questions
 
     }
 
+    /**
+     *  BONUS QUESTION
+     *
+     *  Write a function that accepts a query string as input, performs a repo search
+     *  on the github api using the query string, and prints the name, url, and
+     *  language of the repository.
+     *
+     *
+     *  TIPS:
+     *
+     *  GitHub API info is located at  http://develop.github.com/p/repo.html
+     *  Use the search endpoint: https://github.com/api/v2/json/repos/search/<search_term>
+     *  
+     *
+     *  EXAMPLE OUTPUT:
+     *
+     *  testrocket
+     *  https://github.com/peterc/testrocket
+     *  Ruby
+     *
+     *  sublime-text-2-ruby-tests
+     *  https://github.com/maltize/sublime-text-2-ruby-tests
+     *  Python
+     *
+     *  ruby-plsql
+     *  https://github.com/rsim/ruby-plsql
+     *  Ruby
+     *
+     *  --
+     *
+     */
+    public function listGithubSearchResults( $query ) {
+
+    }
+
 
     const GHETTYSBURG_ADDRESS = 'Four score and seven years ago our fathers
         brought forth on this continent, a new nation, conceived in Liberty, and
